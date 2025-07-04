@@ -1,3 +1,9 @@
 {
-  "version": 3
+  "version": 2,
+  "builds": [
+    {
+      "src": "wimbledon.js",
+      "use": "@vercel/node"
+    }
+  ]
 }
